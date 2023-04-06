@@ -3,10 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background: url(bg.jpg);
+  background-size: cover;
+}
 nav {
   background-color: #ccccde;
-  padding: 10px 0;
+  /* padding: 10px 0; */
+}
+.sticky-top {
+  background: #f2f1e8;
 }
 nav a {
   display: inline-block;
@@ -33,4 +39,11 @@ img {
   padding: 5px;
   margin: 5px;
   border: 2px solid #000;
+}
+img:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  overflow: hidden;
+  transition: 2s ease-in-out;
+  background: #000;
 }

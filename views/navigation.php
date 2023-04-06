@@ -1,6 +1,6 @@
 <?php
 $nav = "
-<ul class='nav nav-tabs p-3'>
+<ul class='nav nav-tabs p-3 sticky-top'>
 	<li class='nav-item'>
 		<a class='nav-link active' href='index.php?page=gallery'>Gallery</a>
 	</li>
